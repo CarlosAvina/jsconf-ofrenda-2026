@@ -1,15 +1,5 @@
-/*
-  TODO 4: Elige el color de tu ofrenda.
-  Cambia el valor de --acento por uno de estos colores o por otro que te guste:
-    Cempasúchil   #FF9F1C
-    Rosa mexicano #FF4FA3
-    Turquesa      #3FD0C2
-    Rojo          #F22727
-    Lila          #B98CFF
-  Ejemplo: --acento: #FF4FA3;
-*/
 :root {
-  --acento: #FF9F1C;
+  --acento: #7B2FBE;
 }
 
 /* A partir de aquí no necesitas cambiar nada, pero puedes explorar */
@@ -189,6 +179,7 @@ body {
   width: clamp(84px, 22vw, 116px);
   aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: 35% center;
   border: 5px solid var(--acento);
   border-radius: 6px;
   outline: 2px solid rgb(251 235 211 / 0.6);
